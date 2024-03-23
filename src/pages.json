@@ -1,0 +1,138 @@
+{
+  "pages": [
+    // pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "病虫害识别",
+        "usingComponents": {
+          "van-button": "/wxcomponents/@vant/dist/button/index",
+          "van-toast": "/wxcomponents/@vant/dist/toast/index",
+          "van-loading": "/wxcomponents/@vant/dist/loading/index",
+          "van-overlay": "/wxcomponents/@vant/dist/overlay/index"
+        }
+      }
+    },
+    {
+      "path": "pages/TechnologyForum/TechnologyForum",
+      "style": {
+        "navigationBarTitleText": "论坛",
+        "usingComponents": {
+          "van-button": "/wxcomponents/@vant/dist/button/index",
+          "van-tabs": "/wxcomponents/@vant/dist/tabs/index",
+          "van-tab": "/wxcomponents/@vant/dist/tab/index",
+          "van-overlay": "/wxcomponents/@vant/dist/overlay/index"
+        }
+      }
+    },
+    {
+      "path": "pages/Profile/Profile",
+      "style": {
+        "navigationBarTitleText": "个人主页",
+        "usingComponents": {
+          "van-button": "/wxcomponents/@vant/dist/button/index"
+        }
+      }
+    },
+    {
+      "path": "pages/BugScan/BugScan",
+      "style": {
+        "navigationBarTitleText": "病虫害识别",
+        "usingComponents": {
+          "van-button": "/wxcomponents/@vant/dist/button/index"
+        }
+      }
+    },
+    {
+      "path": "pages/BugSearch/BugSearch",
+      "style": {
+        "navigationBarTitleText": "解决措施",
+        "usingComponents": {
+          "van-button": "/wxcomponents/@vant/dist/button/index",
+          "van-search": "/wxcomponents/@vant/dist/search/index",
+          "van-icon": "/wxcomponents/@vant/dist/icon/index"
+        }
+      }
+    },
+    {
+      "path": "pages/ExpertTeam/ExpertTeam",
+      "style": {
+        "navigationBarTitleText": "专家团队",
+        "usingComponents": {}
+      }
+    },
+    {
+      "path": "pages/ExpertDetails/ExpertDetails",
+      "style": {
+        // emmm....这里怎么传值是一个问题
+        "navigationBarTitleText": "专家xxx",
+        "usingComponents": {}
+      }
+    },
+    {
+      "path": "pages/MyCollection/MyCollection",
+      "style": {
+        "navigationBarTitleText": "我的收藏",
+        "usingComponents": {
+          "van-tabs": "/wxcomponents/@vant/dist/tabs/index",
+          "van-tab": "/wxcomponents/@vant/dist/tab/index"
+        }
+      }
+    },
+    {
+      "path": "pages/MyConsultation/MyConsultation",
+      "style": {
+        "navigationBarTitleText": "我的咨询记录",
+        "usingComponents": {
+          "van-empty": "/wxcomponents/@vant/dist/empty/index"
+        }
+      }
+    },
+    {
+      "path": "pages/QADetail/QADetail",
+      "style": {
+        "navigationBarTitleText": "问题详情",
+        "usingComponents": {}
+      }
+    },
+    {
+      "path": "pages/Article/Article",
+      "style": {
+        "navigationBarTitleText": "文章详情",
+        "usingComponents": {}
+      }
+    }
+  ],
+  "tabBar": {
+    "color": "#a2a2a0",
+    "selectedColor": "#000000",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icon/index.png",
+        "selectedIconPath": "static/icon/index-selected.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/TechnologyForum/TechnologyForum",
+        "iconPath": "static/icon/TechnologyForum.png",
+        "selectedIconPath": "static/icon/TechnologyForum-selected.png",
+        "text": "论坛"
+      },
+      {
+        "pagePath": "pages/Profile/Profile",
+        "iconPath": "static/icon/profile.png",
+        "selectedIconPath": "static/icon/profile-selected.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  }
+}
